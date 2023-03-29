@@ -45,13 +45,12 @@ return packer.startup(function(use)
   -- commenting with gc
   use("numToStr/Comment.nvim")
 
+  -- icons
+  use("kyazdani42/nvim-web-devicons") 
+  
   --file exporer 
   use("nvim-tree/nvim-tree.lua") 
 
-  -- icons
-  use("kyazdani42/nvim-web-devicons") 
-
-  --  
   --  fuzzy finding 
   use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" }) 
   use({ "nvim-telescope/telescope.nvim", branch = "0.1.x" }) 

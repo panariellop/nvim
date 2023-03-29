@@ -1,3 +1,5 @@
+
+
 -- import nvim-tree plugin safely
 local setup, nvimtree = pcall(require, "nvim-tree")
 if not setup then
@@ -19,7 +21,7 @@ nvimtree.setup({
       glyphs = {
         folder = {
           arrow_closed = ">", -- arrow when folder is closed
-          arrow_open = "⌄", -- arrow when folder is open
+          arrow_open = "-", -- arrow when folder is open
         },
       },
     },
