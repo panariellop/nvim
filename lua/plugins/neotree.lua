@@ -9,7 +9,8 @@ return {
     },
     lazy = false, -- neo-tree will lazily load itself
     keys = {
-	    {"<leader>e", "<cmd>Neotree toggle<cr>", desc = "Toggle neotree" }
+	    {"<leader>e", "<cmd>Neotree toggle<cr>", desc = "Toggle neotree" },
+	    {"<leader>E", "<cmd>Neotree reveal<cr>", desc = "Displays the file tree for the current file" }
     },
     opts = {
       window = {

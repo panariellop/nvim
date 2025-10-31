@@ -18,6 +18,7 @@ vim.opt.rtp:prepend(lazypath)
 -- Load configuration
 require("config.lazy")
 require("custom.keymaps")
+require("custom.settings")
 
 -- Colorscheme
 vim.schedule(function()
