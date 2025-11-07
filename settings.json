@@ -1,0 +1,35 @@
+// Mac: ~/Library/Application Support/Code/User/settings.json
+// Windows: %APPDATA%\Code\User\settings.json
+// Linux: ~/.config/Code/User/settings.json
+{
+    "remote.SSH.remotePlatform": {
+        "gcp-workstation": "linux"
+    },
+    "typescript.tsserver.maxTsServerMemory": 8192,
+    "typescript.tsserver.nodePath": "node",
+    "typescript.tsserver.watchOptions": {
+        "watchFile": "useFsEvents",
+        "watchDirectory": "useFsEvents",
+        "fallbackPolling": "dynamicPriorityPolling"
+    },
+    "workbench.colorTheme": "Visual Studio Dark",
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "c3typ_theme",
+    "editor.wordWrap": "on",
+    "github.copilot.nextEditSuggestions.fixes": false,
+    "github.copilot.renameSuggestions.triggerAutomatically": false,
+    "github.copilot.nextEditSuggestions.allowWhitespaceOnlyChanges": false,
+    "git.confirmSync": false,
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "github.copilot.enable": {
+        "*": false
+    },
+    "vim.incsearch": true, // Show the next match while entering a search
+    "vim.useSystemClipboard": true, // Use the system clipboard register (*) as the default register
+    "vim.useCtrlKeys": true, // Enable Vim ctrl keys overriding common VS Code operations such as copy, paste, find, etc.
+    "vim.hlsearch": true, // Highlights all text matching current search
+    "vim.leader": "<Space>",
+}
+}
